@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<!--
+Template Name: Besloor
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Copyright: OS-Templates.com
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="">
+<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+<head>
+<title>Besloor</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+
+</head>
+<body id="top">
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+  <!-- ################################################################################################ -->
+  <div class="wrapper row0">
+    <div id="topbar" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div class="fl_left"> 
+        <!-- ################################################################################################ -->
+        
+        <!-- ################################################################################################ -->
+      </div>
+      <div class="fl_right"> 
+        <!-- ################################################################################################ -->
+        
+        <!-- ################################################################################################ -->
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <div id="logo" class="fl_left">
+        <h1><a href="#">PREDICTING AIR POLLUTUION USING MACHINE LEARNING</a></h1>
+      </div>
+      <!-- ################################################################################################ -->
+      <nav id="mainav" class="fl_right">
+        <ul class="clear">
+           <li><a href="{% url 'dec'  %}">RANDOMFORESTREGRESSOR</a></li>
+					  <li><a href="{% url 'randomf' %}">ELASTIC NET REGRESSION</a></li>
+          <li><a href="{% url 'nvb'  %}">INPUT FORM</a>
+						<li><a href="{% url 'mnb' %}">RIDGE REGRESSION</a></li>
+						<li><a href="{% url 'graph'  %}">SUPPORT VECTOR REGRESSION</a></li>
+         
+        
+        </ul>
+      </nav>
+      <!-- ################################################################################################ -->
+    </header>
+  </div>
+<div id="pageintro" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+    <article class="center">
+      <footer><a class="btn" href="#">PREDICTING AIR POLLUTUION USING MACHINE LEARNING</a></footer><br>
+	  <footer><a class="btn" href="#">ACCURACY:<h5>{{accuracy}}</h5></a></footer>
+    </article>
+    <!-- ################################################################################################ -->
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+
+
+<div class="wrapper row2">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="center btmspace-80">
+      
+    </div>
+   
+  </section>
+</div>
+
+
+<div class="wrapper row5">
+  <div id="copyright" class="hoc clear"> 
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+
+</body>
+</html>

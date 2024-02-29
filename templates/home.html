@@ -1,0 +1,18 @@
+
+
+{% block content %}
+    <h2>New post</h2>
+    <form  action="{% url 'nvb'  %}" role="form" method="POST" >{% csrf_token %}
+        <input type="text" name="headline"></input>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form><br>
+	<form  action="{% url 'pac'  %}" role="form" method="POST" >{% csrf_token %}
+        <input type="text" name="headline1"></input>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form><br>
+	<form  action="{% url 'svm'  %}" role="form" method="POST" >{% csrf_token %}
+        <input type="text" name="headline2"></input>
+        <button type="submit" class="save btn btn-default">Save</button>
+    </form>
+	<a href="{% url 'nvb' %}">new_job</a>
+{% endblock %}
